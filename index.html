@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões</title>
+    <script src="questoes.js" defer></script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .questao {
+            margin: 15px 0;
+        }
+        span {
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<h1>Escolha uma questão para ver a resposta:</h1>
+    
+<div id="questoes">
+    <div class="questao">
+        <button onclick="verificarFibonacci()"><span>Questão 1:</span> Verificar se um número pertence à sequência de Fibonacci</button>
+    </div>
+    <div class="questao">
+        <button onclick="temAquantosA()"><span>Questão 2:</span> Varifica se tem a letra 'a' (tanto maiúscula quanto minúscula) em uma string e a quantidade de vezes</button>
+    </div>
+    <div class="questao">
+        <button onclick="valorSoma()"><span>Questão 3:</span> Valor do SOMA</button>
+    </div>
+    <div class="questao">
+        <button onclick="completandoLogica()"><span>Questão 4:</span> Descubra a lógica e complete</button>
+    </div>
+    <div class="questao">
+        <button onclick="lampada()"><span>Questão 5:</span> Questão da lâmpada</button>
+    </div>
+</div>
+
+<h2>Resultado:</h2>
+<p id="resultado"></p>
+</body>
+</html>
